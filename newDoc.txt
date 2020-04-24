@@ -1,1 +1,3 @@
 This is my case
+
+Git hub learining is probably the good way to handle the code
