@@ -1,0 +1,15 @@
+SELECT * from tb_aspire_collection_app_follow_up
+
+->leftJoin('collection_app_outstanding_data', 'collection_app_follow_up.loan_id', '=', 'collection_app_outstanding_data.LOAN_ID')
+
+->leftJoin('collection_app_field_master', 'collection_app_follow_up.visit_id', '=', 'collection_app_field_master.id')
+
+->leftJoin('collection_app_field_master as follow_up_obj', 'collection_app_follow_up.FIELD_ID', '=', 'follow_up_obj.id')
+
+->leftJoin('account', 'collection_app_follow_up.user_id', '=', 'account.id')
+
+->leftJoin('account as visit_account', 'collection_app_follow_up.will_visit', '=', 'visit_account.id')
+
+->leftJoin('loan_details', 'collection_app_follow_up.loan_id', '=', 'loan_details.LOAN_ID')
+
+           ->where('collection_app_follow_up.id', '=', $follow_up_id)
