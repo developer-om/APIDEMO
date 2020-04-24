@@ -1,0 +1,35 @@
+git hub upload process :
+
+
+1. upload to existing repository without branch(or directly to master) 
+
+a. goto the code directory through git bash cmd
+b. connect git repository through cmd with command 
+		git remote add origin <Repository Name>(Ex. https://github.com/folder name)
+c. if there is new changes then add it before commit
+		command : git add .
+d. commit new chages with command
+		git commit -m <comment>
+e. push chages to the master	
+		git push origin master
+		
+2. 	upload code on branch in existing repository
+	
+a. goto the code directory through git bash cmd
+b. connect git repository through cmd with command 
+		git remote add origin <Repository Name>(Ex. https://github.com/folder name)
+c. create branch 
+		git branch new_branch_name 
+d. switch to the branch 
+		git checkout new_branch_name	
+NOte : create new_branch and switch to new_branch		
+		git checkout -b new_branch
+e. commit new changes
+		git commit -m <comment>
+f. push to the branch
+		git push origin master <new_branch_name>
+		
+3. Pull Code from git hub
+a. goto the code directory through git bash cmd
+b. pull code 
+		git pull https://github.com/developer-om/test-om.git
