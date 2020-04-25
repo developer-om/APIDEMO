@@ -1,0 +1,14 @@
+{"token":"6786f3c62fbf9021694f6e51cc07fe3c","app_token":"1ecbd7c8771b68bb54c306228ba6847a7d3fec0ff8a70ccf5
+ae371c938893c92e0c7d8ab38f7b2b137b15bdb9420289e42f41398e43e6ded0b5f8e58058bed1081ebdc69b9bfd758ba4dcfb7ad50
+5e25c33e09d134680e6ba040f9c888d29d76",
+"device":"a4860f77a27c0b9c","userid":"2124","loan_branch_id":"27","loan_id":"33359","loan_no":"LXTIT00116-170033359",
+"deal_id":"56012","deal_no":"DXTIT00116-170056012","lead_id":"56256","bucket_type":"3","customer_id":"78449",
+"ptp_amount":"","ptp_date":"23-04-2020 02:00","FIELD_ID":"63","visit_where_id":0,"REASON_ID":0,"STAGES_ID":0,
+"visit_id":"65","visit_comment":"dsddsd","follow_up_remarks":"ertr","follow_up_status":0,"met_whom":-1,"met_where":-1,
+"visited_shop":-1,"qlty_building":-1,"qlty_bldg":-1,"occupancy":-1,"rate_per_sq_ft":"","rmk_pro_salability":"",
+"mobile_no":"","address":"","u_lat":"","u_long":"","is_team_leader":0,"co_borrower_no":"","communication_address":"",
+"alt_mobile_no":"","co_borrower_email":"","property_value":"","project_name":"","profile":"","legal_action":-1,
+"further_action":"","type_of_property":-1,"new_office_no":"","new_employment_address":"","nearest_branch":"3",
+"property_addr_kms":"3","comm_addr_kms":"","office_addr_kms":"","sub_visit_type":"1","visit_type_reason":"11",
+"paid_visit_remark":"","paid_visit_type":0,"paid_visit_charge":0,"paid_visit_count":"","visit_done_by":"1599",
+"property_status":"","property_occupied_by":-1,"is_data_from_offline":0}sdkfnkjfkjfkfakjbakbkasbsaskjabbaf ajfabfsdfsdfsdsd
